@@ -25524,6 +25524,7 @@ p=A.l(A.a3(d,k,""))
 o=A.l(A.a3(c,k,""))
 n=(90*A.l(A.a3(e,k,""))*(s/p)*j*(245-0.594*o-0.0045*Math.pow(o,2))+s*r*i*0.7+s*(1-r)*i)*(1+q/200)
 m=(s-2.5*o)*20*24*(1+(30-r)/10*0.03)
+if(m<0)m=0
 l=(n-0.9*m)/0.6
 return A.a([B.c.j(n),B.c.j(l),B.c.j(m),B.c.j(l+m)],t.s)},
 aFz(a,b,c,d){var s,r,q,p=0.826
